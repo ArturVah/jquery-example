@@ -1,0 +1,26 @@
+<html>
+<head>
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+<div class="navigation">
+    <label>
+        Categories: <select id="categories" onchange="loadSubCategories()"></select>
+    </label>
+
+    <div id="subCategoriesDiv">
+    </div>
+</div>
+<div class="content">
+    <div id="questions"></div>
+    <button id="createTest" onclick="createTest()">Create test</button>
+</div>
+<div class="clear">
+</div>
+<script src="js/index.js"></script>
+</body>
+</html>

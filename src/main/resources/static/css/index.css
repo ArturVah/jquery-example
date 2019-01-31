@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.navigation {
+    float: left;
+    width: 30%;
+    height: 100%;
+    background-color: aquamarine;
+}
+
+.content {
+    float: left;
+    width: 70%;
+    height: 100%;
+    background-color: coral;
+}
+
+.clear {
+    clear: both;
+}
